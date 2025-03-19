@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .header {
+            background: palevioletred;
+            color: white;
+            padding: 18px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .navbar {
+            background: black;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: large;
+        }
+        .main {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sidebar {
+            background: rgb(230, 122, 158);
+            flex: 1;
+            max-width: 200px;
+            height: 520px;
+        }
+        .content {
+            background: lightpink;
+            flex: 2;
+            padding: 20px;
+        }
+        .footer {
+        
+            background: yellow;
+            font-weight: bold;
+            height: 200px;
+        }
+        @media (max-width: 600px) {
+            .main {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Online Book Store<br><br>Created & Maintained by Department of IT</div>
+    <div class="navbar">
+        <a href="Registration.html">Registration</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Catalogue.html">Catalogue</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="Timetable.html">Time Table</a>&nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    <div class="navbar">
+        <div class="sidebar"><br><br>
+            <a href="ECE.html">ECE</a><br><br><br><br><br><br>
+            <a href="EEE.html">EEE</a><br><br><br><br><br><br>
+            <a href="IT.html">IT</a><br><br><br><br><br><b><br></b>
+            <a href="MECH.html">MECH</a><br><br><br><br><br><br>
+        </div>
+        <div class="content">
+            <img src="Books1.png" alt="Books" style="width: 500px;"><br><br><br>
+            <p><h1>Welcome to the Online Book Store!!!</h1></p><br>
+            <h3>"A Huge Collection Of Engineering E-Books"</h1><br>
+        </div>
+    </div>
+    
+</body>
+</html>
